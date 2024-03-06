@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Html 2</title>
+</head>
+
+<body background="C:\Users\91630\Downloads/Presi.jpg">
+<h1>Presidency University<h1>
+<h2>Admission Form<h2><br/>
+<form method="post">
+<p>Enter Your Name:</p>
+<Input type="text"name="Name">
+<p>Enter Your Email:</P>
+<Input type="email"name="email"/>
+<p>Enter Your Password:</p>
+<Input type="passowd"name="password"/>
+<p>Enter Your Age:</p>
+<Input type="Number"name="Age"/>
+<p>Gender</p>
+<Input type="radio"name="male"value="male"/>male<br/>
+<Input type="radio"name="female"value="female"/>female<br/>
+<p>About YourSelf</p>
+<textarea rows="5" cols="20" name="Description">
+</textarea>
+<p>In Which Branch You Are Intrested</p>
+<input type="checkbox"name="CSE"value="on"/>CSE<br/>
+<input type="checkbox"name="ECE"value="on"/>ECE<br/>
+<input type="checkbox"name="EEE"value="on"/>EEE<br/>
+<input type="checkbox"name="MEC"value="on"/>MEC<br/>
+<p>Upload Your Picture</p>
+<input type="file"name="fileupload"accept="document/*/>
+<p></p>
+<a href="secondwebpage.html><br/><br/><br/><br/>
+<input type="button"name="submit"value="submit"/><a>
+</form>
+</body>
+
+</html>
