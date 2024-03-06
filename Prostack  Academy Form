@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<style> h1{color:red;}
+</style>
+<head>
+<title>Myfirshtml</title>
+</head>
+
+<body background="C:\Users\91630\Downloads\pro Stack.jpg">
+<h1> Pro Stack Academy Form</h1>
+<form method="POST">
+<p>Enter your Name:</p>
+<input type="text" name="Name"/>
+<p>Enter your Email:</p>
+<input type="email" name="email"/>
+<p>Enter your password:</p>
+<input type="password" name="password"/>
+<p>Enter your Age:</p>
+<input type="number" name="Age"/>
+<p>Gender:</p>
+<input type="radio" name="male"  value="male"/>Male<br/>
+<input type="radio" name="female"  value="female"/>Female<br/>
+<p>About Yourself</p>
+<textarea rows="2" cols="20"name="description">
+</textarea>
+<p>which programing language should you know?</p>
+<input type="checkbox" name="c" value="on"/>c<br/>
+<input type="checkbox" name="c++value="on"/>c++<br/>
+<input type="checkbox" name="java="on"/>java<br/>
+<input type="checkbox" name="python="on"/>python<br/>
+<input type="checkbox" name="javascriptn"/>javascript<br/>
+<p>How many months you want to practice in our internship program?</p>
+<select name="dropdown">
+<option value="4 Months">4 Months</option>
+<option value="6 Months">6 Months</option>
+<option value="9 Months">9 Months</option>
+</select>
+<p>Upload your Resume</p>
+<input type="file"name="fileupload"accept="document/*/>
+<p></p>
+<a href="secondwebpage.html"><br/><br/>
+<input type="button" name="submit" value="submit"/><a>
+
+
+</form>
+
+<body>
+
+</html>
