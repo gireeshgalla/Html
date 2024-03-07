@@ -35,11 +35,12 @@
 <option value="6 Months">6 Months</option>
 <option value="9 Months">9 Months</option>
 </select>
-<p>Upload your Resume</p>
+<p>Upload your picture</p>
 <input type="file"name="fileupload"accept="document/*/>
 <p></p>
 <a href="secondwebpage.html"><br/><br/>
-<input type="button" name="submit" value="submit"/><a>
+<input type="button" name="submit" value="submit"/><a><br/><br/>
+<input type="button"name="cancel"value="cancel"/>
 
 
 </form>
